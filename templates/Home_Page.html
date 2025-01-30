@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- <link rel="stylesheet" href="../Style/Home_Page.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Home_Page.css') }}">
+</head>
+
+{% extends 'base.html' %}
+{% block body %}
+    
+
+    <div class="main">
+        <h1>Free YouTube Playlist Downloading</h1>
+        <div class="submain">
+            <div class="sub-submain">
+                <div class="sub-submain-img">
+                    <img class="sub-domain-main-img" src="{{ url_for('static', filename='icons/youtube_main.svg') }}" >
+                </div>
+                
+                <form action="." method="post">
+                    <div class="sub-main2">
+                        <img class="sub-main2-img" src="{{ url_for('static', filename='icons/youtube (1).svg') }}">
+                        <input id="url" name="url_value" placeholder="Paste playlist URL" >
+                        <button class="Button">
+                            Download
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock body %}
+    

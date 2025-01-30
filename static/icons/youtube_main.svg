@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="youtube">
+  <g>
+    <g>
+      <path fill="none" stroke="#303c42" stroke-linecap="round" stroke-linejoin="round" d="M5.5 20.5v-6M3.5 14.5h4M7.5 16.5v2.75a1.25 1.25 0 0 0 1.25 1.25h.5a1.25 1.25 0 0 0 1.25-1.25V16.5M10.5 19.5v1M17.5 18.5h3v-.75a1.25 1.25 0 0 0-1.25-1.25h-.5a1.25 1.25 0 0 0-1.25 1.25v1.5a1.25 1.25 0 0 0 1.25 1.25h.75a1 1 0 0 0 .85-.5"></path>
+      <rect width="21" height="10" x="1.5" y="12.5" fill="none" stroke="#303c42" stroke-linecap="round" stroke-linejoin="round" rx="2.5" ry="2.5"></rect>
+      <path fill="none" stroke="#303c42" stroke-linecap="round" stroke-linejoin="round" d="m4.5 1.5 2 5 2-5M6.5 6.5v4"></path>
+      <rect width="3" height="6" x="9.5" y="4.5" fill="none" stroke="#303c42" stroke-linecap="round" stroke-linejoin="round" rx="1.5" ry="1.5"></rect>
+      <g>
+        <path fill="none" stroke="#303c42" stroke-linecap="round" stroke-linejoin="round" d="M17.5 4.5V9a1.5 1.5 0 0 1-1.5 1.5h0A1.5 1.5 0 0 1 14.5 9V4.5"></path>
+      </g>
+      <path fill="none" stroke="#303c42" stroke-linecap="round" stroke-linejoin="round" d="M17.5 9v1.5M12.5 14.5v6"></path>
+      <rect width="3" height="4" x="12.5" y="16.5" fill="none" stroke="#303c42" stroke-linecap="round" stroke-linejoin="round" rx="1.25" ry="1.25"></rect>
+    </g>
+  </g>
+</svg>

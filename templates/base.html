@@ -1,0 +1,261 @@
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-first">
+            <div class="navbar-head">
+                <!-- <img class= "navbar-head-img" src="Icons/youtube (1).svg" > -->
+                <img class= "navbar-head-img" src="{{ url_for('static', filename='icons/youtube (1).svg') }}">
+                <p class="navbar-head-title">Yt_Playlist</p>
+            </div>
+            <div class="navbar-tools">
+                <img class="navbar-tools-img" src="{{ url_for('static', filename='icons/tools.svg') }}" >
+                <p class="navbar-tools-txt">Tools</p>
+                <img src="{{ url_for('static', filename='icons/dropdown.svg') }}">
+            </div>
+            <div class="navbar-first-btn">
+                <button>
+                    Download
+                </button>
+                <button>
+                    Convert
+                </button>
+                <button>
+                    Merge
+                </button>
+                <button>
+                    Edit
+                </button>
+                <button>
+                    Sign
+                </button>
+                <button>
+                    AI Video
+                </button>
+            </div>
+        </div>
+        <div class="navbar-second">
+            <button>
+                Pricing
+            </button>
+            <button>
+                Download
+            </button>
+            <div class="v1">
+
+            </div>
+            <button>
+                Log in
+            </button>
+            
+        </div> 
+        <button class="free-trial">
+            Free Trial
+        </button>
+    </nav>
+    <nav class="navbar2">
+        <img class="navbar2-img" src="{{ url_for('static', filename='icons/home.svg') }}">
+        <p>Home</p>
+    </nav>
+    {% block body %}
+        
+    {% endblock body %}
+
+
+    <div class="quality1">
+        <div class="quality1-first">
+            <p>Download all Video in YouTube Playlist in one click. </p>
+        </div>
+        <div class="quality1-second">
+            <div class="quality1-second-first">
+                <img src="{{ url_for('static', filename='icons/right_tick.svg') }}">
+                <p>Download Playlist in One Click in your PC</p>
+            </div>
+            <div class="quality1-second-second">
+                <img src="{{ url_for('static', filename='icons/right_tick.svg') }}">
+                <p>Download on Mac, Windows, Linux, iOS, and Android</p>
+            </div>
+            <div class="quality1-second-third">
+                <img src="{{ url_for('static', filename='icons/right_tick.svg') }}">
+                <p>Free online Playlist Download from YouTube in your PC</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="quality2">
+        <div class="quality2-first">
+            <img src="{{ url_for('static', filename='icons/icons8-idea.svg') }}">
+            <b class="head">
+                Quick Video Downloader Without Sign-up
+            </b>
+            <p class="subhead">
+No sign-ups, no hassle! Instantly download
+your favorite playlists in just seconds—fast,
+free, and ready to enjoy without any extra
+steps.               
+            </p>
+        </div>
+
+        <div class="quality2-first">
+            <img src="{{ url_for('static', filename='icons/badge.png') }}">
+            <b class="head">
+                Safe Document Processing
+            </b>
+            <p class="subhead">
+Your Privacy, Our Priority , 
+We understand the importance of 
+protecting your data. That’s why we 
+ensure all downloads and transfers are
+secured with TLS encryption, keeping
+your information safe.              
+            </p>
+        </div>
+
+        <div class="quality2-first">
+            <img src="{{ url_for('static', filename='icons/thumb.svg') }}">
+            <b class="head">
+                Video Downloader on Any Operating System
+            </b>
+            <p class="subhead">
+Download Playlists Seamlessly Across All 
+Devices and Platforms . Enjoy hassle-free
+playlist downloads on Mac, Windows, and 
+Linux. Save your favorite playlists to your 
+device on iOS, Android, or use our desktop
+app for convenient offline downloads 
+anytime.              
+            </p>
+        </div>
+
+        <div class="quality2-first">
+            <img src="{{ url_for('static', filename='icons/lock.svg') }}">
+            <b class="head">
+                Online Playlist Downloader Without Losing Singel Video
+            </b>
+            <p class="subhead">
+Downloading playlists has never been 
+easier! Thanks to our integration with 
+advanced technologies, we ensure 
+exceptional accuracy, cutting-edge features, 
+and a hassle-free experience every time. Get
+your favorite playlists effortlessly today!               
+            </p>
+        </div>
+
+        <div class="quality2-first">
+            <img src="{{ url_for('static', filename='icons/free.svg') }}">
+            <b class="head">
+                Free Online Playlist Downloader
+            </b>
+            <p class="subhead">
+A simple tool to download entire playlists 
+from popular platforms quickly and
+efficiently for offline access.               
+            </p>
+        </div>
+    </div>
+
+    <div class="quality3">
+        <div class="quality3-first">
+            <img src="{{ url_for('static', filename='icons/youtube.svg') }}">
+            <img src="{{ url_for('static', filename='icons/arrow.svg') }}">
+            <img src="{{ url_for('static', filename='icons/video.svg') }}">
+        </div>
+        <div class="quality3-second">
+            <h2>How To Download YouTube Playlist in Computer :</h2>
+            <ol>
+                <li>Paste your YouTube playlist url in the above input.</li>
+                <li>After pasting YouTube playlist url , click download button.</li>
+                <li>Wait for few minutes.</li>
+                <li>Download or share your YouTube Playlist —done!</li>
+            </ol>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer-one">
+        <div class="footer-one-main">
+            <div class="footer-one-main-logo">
+                <div class="footer-one-main-logo-img">
+                    <img src="{{ url_for('static', filename='icons/youtube (1).svg') }}">
+                    <h3>Yt_Playlist</h3>
+                </div>
+                <div class="footer-one-main-logo-txt">
+                    We make Download YouTube Playlist Easy.
+                </div>
+            </div>
+
+            <div class="footer-one-main-points">
+                <b>Solution</b>
+                <p>Business</p>
+                <p>Education</p>
+            </div>
+
+            <div class="footer-one-main-points">
+                <b>Company</b>
+                <p>About</p>
+                <p>Help</p>
+                <p>Blog</p>
+            </div>
+
+            <div class="footer-one-main-points">
+                <b>Product</b>
+                <p>Pricing</p>
+                <p>Teams</p>
+                <p>Embed PDF</p>
+                <P>Developers</P>
+                <p>Sign.com</p>
+            </div>
+
+            <div class="footer-one-main-points">
+                <b>Apps</b>
+                <p>Download Yt_Playlist</p>
+                <p>PDF Scanner</p>
+                <p>Windows Apps</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer-second">
+        <div class="footer-second-main">
+            <div class="footer-second-main-icons">
+                <img src="{{ url_for('static', filename='icons/in.svg') }}">
+                <img src="{{ url_for('static', filename='icons/f.svg') }}">
+                <img src="{{ url_for('static', filename='icons/insta.svg') }}">
+                <img src="{{ url_for('static', filename='icons/yout.svg') }}">
+                <img src="{{ url_for('static', filename='icons/twitter.svg') }}">
+            </div>
+
+            <div class="footer-second-main-advert">
+                <div class="footer-second-main-advert-first">
+                    <img src="{{ url_for('static', filename='icons/dowload for windows.png') }}">
+                </div>
+                <div class="footer-second-main-advert-first">
+                    <img src="{{ url_for('static', filename='icons/get it on playstore.png') }}">
+                </div>
+                <div class="footer-second-main-advert-first">
+                    <img src="{{ url_for('static', filename='icons/download on a play store.png') }}">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-second-txt">
+            <div class="footer-second-txt-first">
+                <p>© 2025 Smallpdf AG — Made with &#10084; for the people of the internet.</p>
+            </div>
+            <div class="footer-second-txt-second">
+                <p>Privacy Notice</p>
+                <p>Terms & Condition</p>
+                <p>Imprint</p>
+                <p>Contact us</p>
+                <p>
+                    <img src="{{ url_for('static', filename='icons/world.png') }}">
+                    English
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

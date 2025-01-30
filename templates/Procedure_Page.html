@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procedure Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Procedure_Page.css') }}">
+    <script>
+        function checkStatus() {
+            fetch('/check_status')
+                .then(response => {
+                    if (response.status === 204) {
+                        setTimeout(checkStatus, 10000); // Retry after 10 second
+                    } else {
+                        window.location.href = "/success"; // Redirect to success page
+                    }
+                });
+        }
+
+        window.onload = checkStatus;
+    </script>
+</head>
+
+    {% extends 'base.html' %}
+
+    {% block body %}
+
+    <div class="main">
+        <h1>Free YouTube Playlist Downloading</h1>
+        <div class="submain">
+            <div class="sub-submain">
+                <div class="sub-submain-img">
+                    <img class="sub-domain-main-img" src="{{ url_for('static', filename='icons/youtube_main.svg') }}" >
+                </div>
+                
+                <div class="sub-main2">
+                    <img class="sub-main2-img" src="{{ url_for('static', filename='icons/youtube (1).svg') }}">
+                    <img class="sub-main2-img arrow" src="{{ url_for('static', filename='icons/arrow.svg') }}">
+                    <img class="sub-main2-img arrow" src="{{ url_for('static', filename='icons/arrow.svg') }}">
+                    <img class="sub-main2-img arrow" src="{{ url_for('static', filename='icons/arrow.svg') }}">
+                    <img class="sub-main2-img arrow" src="{{ url_for('static', filename='icons/arrow.svg') }}">
+                    <img class="sub-main2-img arrow" src="{{ url_for('static', filename='icons/arrow.svg') }}">
+                    <img class="sub-main2-img arrow" src="{{ url_for('static', filename='icons/arrow.svg') }}">
+                    <img class="sub-main2-img arrow" src="{{ url_for('static', filename='icons/arrow.svg') }}">
+                    <img class="sub-main2-img arrow" src="{{ url_for('static', filename='icons/arrow.svg') }}">
+                    <img class="sub-main2-img" src="{{ url_for('static', filename='icons/computer.svg') }}">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}

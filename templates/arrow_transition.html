@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuous Arrow Animation</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+        }
+        .arrow {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+            animation: moveArrow 2s linear infinite;
+        }
+        @keyframes moveArrow {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(40px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Icons/youtube (1).svg" alt="YouTube Icon" class="icon">
+        <img src="Icons/arrow.svg" alt="Arrow Icon" class="arrow">
+        <img src="Icons/arrow.svg" alt="Arrow Icon" class="arrow">
+        <img src="Icons/arrow.svg" alt="Arrow Icon" class="arrow">
+        <img src="Icons/arrow.svg" alt="Arrow Icon" class="arrow">
+        <img src="Icons/arrow.svg" alt="Arrow Icon" class="arrow">
+        <img src="Icons/arrow.svg" alt="Arrow Icon" class="arrow">
+        <img src="Icons/computer.svg" alt="Computer Icon" class="icon">
+    </div>
+</body>
+</html>
