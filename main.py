@@ -4,8 +4,7 @@ import yt_dlp
 
 app = Flask(__name__)
 
-download_completed = { 1 : "Start" , 2 : "Procedure" , 3 : ""}
-my_dict = {"key1": "value1", "key2": "value2"}
+download_completed = False
 
 
 def download_playlist(playlist_url, save_path):
