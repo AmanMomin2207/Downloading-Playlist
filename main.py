@@ -39,7 +39,7 @@ def get_value():
     if not playlist_url:
         return render_template('Terminated_Page.html')
 
-    save_path = r"D:\AMAN"
+    save_path = r"C:\Users\Public\Downloads"
 
     thread = threading.Thread(target=download_playlist, args=(playlist_url, save_path))
     thread.start()
